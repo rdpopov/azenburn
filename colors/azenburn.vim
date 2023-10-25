@@ -175,7 +175,7 @@ highlight GitSignsAdd guifg=NONE guibg=#23733c guisp=NONE blend=NONE gui=NONE
 highlight GitSignsChange guifg=NONE guibg=#5d90cd guisp=NONE blend=NONE gui=NONE
 highlight GitSignsDelete guifg=NONE guibg=#eb6f92 guisp=NONE blend=NONE gui=NONE
 highlight Identifier guifg=#88f99a guibg=NONE guisp=NONE blend=NONE gui=italic
-highlight! link NvimIdentifier Identifier
+highlight! link NvimIdentifier Label
 highlight! link TelescopeMultiIcon Identifier
 highlight! link TelescopePromptPrefix Identifier
 highlight! link TelescopeResultsIdentifier Identifier

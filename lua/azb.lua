@@ -173,7 +173,7 @@ local theme = lush(function(injected_functions)
     sym"@property"                         { Normal }, -- @property      xxx links to Identifier
     sym"@variable"                         { Normal }, -- @variable      xxx links to Identifier
     sym"@namespace"                        { fg="#9ff6db" }, -- @namespace     xxx links to Identifier
-    sym"@lsp.type.parameter"               { Identifier }, -- @lsp.type.parameter xxx links to Identifier
+    sym"@lsp.type.parameter"               { Label }, -- @lsp.type.parameter xxx links to Identifier
     sym"@lsp.type.property"                { Normal }, -- @lsp.type.property xxx links to Identifier
     sym"@lsp.type.variable"                { Normal }, -- @lsp.type.variable xxx links to Identifier
     NvimIdentifier                         { Identifier }, -- NvimIdentifier xxx links to Identifier

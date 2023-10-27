@@ -175,11 +175,11 @@ highlight GitSignsAdd guifg=NONE guibg=#23733c guisp=NONE blend=NONE gui=NONE
 highlight GitSignsChange guifg=NONE guibg=#5d90cd guisp=NONE blend=NONE gui=NONE
 highlight GitSignsDelete guifg=NONE guibg=#eb6f92 guisp=NONE blend=NONE gui=NONE
 highlight Identifier guifg=#88f99a guibg=NONE guisp=NONE blend=NONE gui=italic
-highlight! link NvimIdentifier Label
+highlight! link NvimIdentifier Identifier
 highlight! link TelescopeMultiIcon Identifier
 highlight! link TelescopePromptPrefix Identifier
 highlight! link TelescopeResultsIdentifier Identifier
-highlight! link @lsp.type.parameter Identifier
+highlight! link @lsp.type.parameter Label
 highlight! link @text.reference Identifier
 highlight Ignore guifg=bg guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight IncSearch guifg=#191919 guibg=#c99f9f guisp=NONE blend=NONE gui=reverse
